@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect, useCallback } from 'react'
-import { supabase } from './supabaseClient'
+import { supabase } from '../lib/supabaseClient'
 
 // Definisikan tipe untuk item menu agar kode lebih aman dan terstruktur
 interface MenuItem {
